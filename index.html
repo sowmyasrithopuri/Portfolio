@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Sowmya Sri Thopuri</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Resume</a></li>
+          
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Sowmya Sri Thopuri</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#resume" onclick="toggleMenu()">Resume</a></li>
+         
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img id="prof" src="sarayu.png" alt="Sowmya profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Sowmya Sri Thopuri</h1>
+        <p class="section__text__p2">Student</p>
+        <div class="btn-container">
+          
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/sowmya-sri-thopuri-ba616025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+          
+            />
+          <img
+            src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Symbol.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/sowmyasrithopuri'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+         
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            
+            <div class="details-container">
+              <img
+                src="https://th.bing.com/th/id/OIP.3X4tmXOGJM2DAVUw5D7MOwHaFN?rs=1&pid=ImgDetMain"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech. Bachelors Degree</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am Sowmya Sri Thopuri, a dedicated undergraduate student at Sridevi Women's Engineering College, Hyderabad, pursuing a degree in Electronics and Communication Engineering. With a strong passion for technology and a keen interest in web development, I have immersed myself in the world of HTML and CSS, crafting visually appealing and responsive web pages. Currently, I am expanding my skill set by delving into JavaScript to add dynamic functionality to my projects. My enthusiasm extends beyond the web, as I am also proficient in coding languages like C. Through my academic journey, I am honing my analytical and problem-solving skills, and I am excited about the endless possibilities that the field of electronics and communication engineering offers. As I continue to explore the intersection of hardware and software, I am eager to contribute my skills and knowledge to the ever-evolving landscape of technology.
+            </p>
+          </div>
+        </div>
+      </div>
+     
+    </section>
+    <section id="resume">
+      <p class="section__text__p1">Explore My</p>
+
+<a href="resume..pdf" id="resmue1" class="title">Resume</a>      
+<div class="resume-details-container">
+        
+      </div>
+      
+    </section>
+   
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://1.bp.blogspot.com/-Iz1WDj_g2sw/X5H7dpDGtOI/AAAAAAAAUkQ/LKGihXr3jn8-9_zColtX7iUuYqs2Q28fgCLcBGAsYHQ/s2048/gmail%2Bnew.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:sowmyasrithopuri@gmail.com">sowmyasrithopuri@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://pngimg.com/uploads/linkedIn/linkedIn_PNG8.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/sowmya-sri-thopuri-ba616025a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#resume">Resume</a></li>
+            
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
